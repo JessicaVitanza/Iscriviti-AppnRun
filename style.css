@@ -85,6 +85,11 @@ line-height: 40px;
 }
 
 
+.intromobile{
+    display: none;
+}
+
+
 @media (max-width: 767.98px) {
  
     .colsx{
@@ -98,10 +103,7 @@ line-height: 40px;
     
     
 .intro{
-    text-align: center;
-    font-size: x-large;
-    padding-left: 0px;
-    letter-spacing: 2.5px;
+  display: none;
     }
     
     
@@ -121,6 +123,14 @@ line-height: 40px;
         text-align: center;
         padding-left: 0px;
         margin-top: -20px;
+    }
+
+    .intromobile{
+        display: block;
+        text-align: center;
+        font-size: x-large;
+        padding-left: 0px;
+        letter-spacing: 2.5px;
     }
 
 }
